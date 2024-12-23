@@ -1,0 +1,388 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #858585;
+ 
+}
+
+
+ .header {
+  border: 3px solid #007bff; 
+  border-radius: 30px;
+  padding-top: 20px;
+  margin: 10px;
+
+
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 20px;
+  margin-right: 35px;
+} 
+
+.dropdown {
+  padding: 5px 10px;
+  font-size: 18px;
+  color: #007bff;
+  margin-right: 15px;
+  border: 1px solid #96afc5;
+  border-radius: 20px;
+  outline: none;
+
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #dbd8d8;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: background-color 0.3s;
+}
+
+#i1 {
+  color: #007bff;
+  margin-right: 8px;
+}
+#i2{
+  margin-left: 80px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.btn-signin {
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid #007bff;
+  color:black;
+  padding: 8px 30px 8px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-signin a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-signin:hover {
+  background-color: #f6f6f7;
+
+}
+
+.btn-register {
+  background-image: linear-gradient(to right, rgba(7, 165, 212, 0.801),rgb(174, 176, 248), rgb(163, 165, 250));
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 12px 28px 12px 28px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.course-info {
+  position: relative;
+  margin-top: 0px;
+  border-radius: 10px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-section {
+  flex: 1;
+  text-align: left;
+  padding: 20px 0px 20px 30px;
+}
+
+.text-section a {
+  color: #ffffff; 
+  text-decoration: underline;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+
+.text-section h2 {
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+
+}
+
+.text-section p {
+  font-size: 16px;
+ 
+}
+
+.course-img {
+  margin: 40px 0 0 0px;
+  height: 300px;
+  
+}
+
+.course-info {
+  background-image:url('Frame 2232-3.png') ;
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+  text-align: left;
+  
+}
+
+
+.program {
+
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.program-info {
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.program-info h2 {
+  font-size: 30px;
+  color: #111111;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #0f0f0f;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.program-info p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.program .dropdown {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  max-width: 300px;
+}
+.program-info .container{
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dropdown:hover {
+  border-color: #007bff; /* Blue border on hover */
+}
+
+.program-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.program-details .card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 19px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.program-details .card img {
+  height: 300px;
+  margin-bottom: 15px;
+
+}
+
+.program-details .card div {
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+  background-image: linear-gradient(to right, rgba(7, 165, 212, 0.801),rgb(174, 176, 248), rgb(69, 147, 236));
+  border-radius: 10px;
+}
+
+.program-details .card p {
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.benefits .card{
+  background-image: url('Frame 2232-8.png');
+  border-radius: 6%;
+}
+.benefits {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.benefits h3 {
+  
+  display: inline-block; /* Ensures the border wraps tightly around the text */
+  border-bottom: 2px solid black; /* Solid black border */
+  padding: 5px 10px; 
+  
+  font-size: 4rem; /* Text size */
+ 
+}
+
+.benefit-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.benefit-cards .card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.benefit-cards .card h4 {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.benefit-cards .card p {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.benefit-cards .card img{
+  width:60px ;
+  height: 60px;
+}
+.footer{
+  padding: 50px;
+  color: white;
+  background-image: url('Frame 2232-6.png');
+}
+.footer h4{
+  font-size:40px;
+  font-weight: 20px;
+}
+
+
+
+
+
+
+form {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  margin-left: 60px;
+}
+
+.footer h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer .form-group {
+  margin-bottom: 20px;
+}
+
+
+.footer input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  
+  border: none;
+  border-bottom: 1px solid #242323;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #fda085;
+  outline: none;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.footer .row .form-group {
+  flex: 1;
+}
+
+.footer textarea {
+  resize: none;
+  min-height: 100px;
+}
+
+.footer button {
+  width: 100%;
+  background: linear-gradient(120deg, #65b7f6, #85a5fd);
+color:white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
